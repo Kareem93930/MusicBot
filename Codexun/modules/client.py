@@ -516,9 +516,9 @@ async def cbabout(_, query: CallbackQuery):
             [
               [
                     InlineKeyboardButton("🪄 ¦ الـدعـم", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/MK_1B_PY")
+                    InlineKeyboardButton("⚙️ ¦ الجوكر", url=f"https://t.me/Elj_oker")
                 ],
-            [InlineKeyboardButton("💭 ¦ لـي تنـصيـب بـوتـك مجـاني", url=f"https://t.me/MK_1B_PY/1124")],
+            [InlineKeyboardButton("💭 ¦ لـي الاستفسار عن التديثات", url=f"https://t.me/Elj_oker")],
             [InlineKeyboardButton("↩️ ¦ رجــوع", callback_data="cbhome")]]
         ),
     )
@@ -839,7 +839,7 @@ async def nonabout(_, query: CallbackQuery):
             [
               [
                     InlineKeyboardButton("🪄 ¦ الـدعـم", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/MK_1B_PY")
+                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/J_O_K_R_9")
                 ],
               [InlineKeyboardButton("↩️ ¦ رجــوع", callback_data="cbmenu")]]
         ),
