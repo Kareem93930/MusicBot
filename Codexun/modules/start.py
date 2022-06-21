@@ -12,7 +12,7 @@ from Codexun.config import BOT_USERNAME
 from Codexun.config import BOT_NAME
 from Codexun.config import START_IMG
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("music") & filters.private & ~filters.edited)
 async def strt_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://t.me/{BOT_USERNAME}",
